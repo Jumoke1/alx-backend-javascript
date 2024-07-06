@@ -1,5 +1,5 @@
 export default function updateStudentGradeByCity(students, city, newGrades) {
-    const defaultGrade = { grade: 'N/A' };
+  const defaultGrade = { grade: 'N/A' };
   
     if (students instanceof Array) {
       return students
@@ -15,4 +15,3 @@ export default function updateStudentGradeByCity(students, city, newGrades) {
     }
     return [];
   }
-  
